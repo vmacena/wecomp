@@ -11,9 +11,9 @@
     "target": "ESNext",
     "module": "ESNext",
     "types": ["react", "react-dom"],
-    "outDir": "./dist", // Adicione esta linha para especificar o diretório de saída
-    "rootDir": "./src", // Adicione esta linha para especificar o diretório raiz
-    "noEmit": true // Adicione esta linha para evitar a emissão de arquivos JS
+    "outDir": "./dist",
+    "rootDir": "./src",
+    "noEmit": true
   },
   "include": ["src"]
 }
