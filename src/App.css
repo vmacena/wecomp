@@ -21,6 +21,8 @@ body {
   /* 100 = light/ 500 = normal / 1000 = dark */
 
   --green-1000: #0E6700;
+
+  --white-100: #FFFFFF;
 }
 
 
