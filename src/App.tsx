@@ -4,7 +4,7 @@ import About from "@/sections/About/About";
 function App() {
   return (
     <>
-      <Hero />
+      <Hero children={""} />
       <About />
     </>
   );

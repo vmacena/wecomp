@@ -49,8 +49,7 @@ export const Subtitle = styled.p`
 `;
 
 export const ArrowDown = styled.div`
-  position: absolute;
-  bottom: 20px;
+  margin-top: 40px;
   font-size: 2rem;
   cursor: pointer;
   animation: bounce 1.5s infinite;
@@ -59,8 +58,5 @@ export const ArrowDown = styled.div`
     0%, 100% { transform: translateY(0); }
     50% { transform: translateY(10px); }
   }
-
-  ${mq({
-    fontSize: ["2rem", "1.5rem", "1.2rem"],
-  })}
 `;
+
