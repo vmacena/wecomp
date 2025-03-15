@@ -1,11 +1,11 @@
-import './App.css'
+import Hero from "@/sections/Hero";
 
 function App() {
   return (
-    <div className="App">
-      <h1>Hello</h1>
-    </div>
-  )
+    <>
+      <Hero />
+    </>
+  );
 }
 
-export default App
+export default App;
