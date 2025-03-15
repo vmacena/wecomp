@@ -1,5 +1,5 @@
 import styled from "styled-components";
-import { mq } from "@/utils/responsive/breakpoints"; // Importa os breakpoints para responsividade
+import { mq } from "@/utils/responsive/breakpoints";
 
 export const AboutContainer = styled.section`
   display: flex;
@@ -14,7 +14,7 @@ export const AboutContainer = styled.section`
   min-height: 100vh;
 
   ${mq({
-    padding: ["80px 20px", "60px 15px"], // Ajuste para telas menores
+    padding: ["80px 20px", "60px 15px"],
   })}
 `;
 
@@ -28,7 +28,7 @@ export const Title = styled.h2`
   margin-bottom: 20px;
   
   ${mq({
-    fontSize: ["2rem", "1.8rem"], // Ajuste de fonte responsivo
+    fontSize: ["2rem", "1.8rem"],
   })}
 `;
 
@@ -39,8 +39,8 @@ export const Text = styled.p`
   margin-bottom: 20px;
 
   ${mq({
-    fontSize: ["1.2rem", "1rem"], // Redução do tamanho do texto em telas menores
-    padding: ["0 20px", "0 15px"], // Melhor espaçamento para mobile
+    fontSize: ["1.2rem", "1rem"],
+    padding: ["0 20px", "0 15px"],
   })}
 `;
 
@@ -72,6 +72,6 @@ export const ArrowDown = styled.div`
   }
 
   ${mq({
-    fontSize: ["2rem", "1.5rem"], // Reduz o tamanho da seta em telas menores
+    fontSize: ["2rem", "1.5rem"],
   })}
 `;
