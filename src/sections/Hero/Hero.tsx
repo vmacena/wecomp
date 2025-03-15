@@ -1,12 +1,13 @@
 import { HeroContainer, Logo, Title, Subtitle, ArrowDown } from "./Hero.styles";
+import { heroContent } from "@/assets/config/config";
 import logo from "@/assets/images/logopreto.png";
 
 const Hero = () => {
   return (
-    <HeroContainer>
-      <Logo src={logo} alt="Wecomp Logo" />
-      <Title>VI Semana da Computação</Title>
-      <Subtitle>02 a 06 de setembro</Subtitle>
+    <HeroContainer id="hero">
+       <Logo src={logo} alt="Wecomp Logo" />
+      <Title>{heroContent.title}</Title>
+      <Subtitle>{heroContent.subtitle}</Subtitle>
       <ArrowDown>▼</ArrowDown>
     </HeroContainer>
   );

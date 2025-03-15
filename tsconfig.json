@@ -4,12 +4,16 @@
     "paths": {
       "@/*": ["src/*"]
     },
-    "jsx": "react-jsx", // Adicione esta linha para suportar JSX
-    "esModuleInterop": true, // Adicione esta linha para suportar importações ES6
-    "moduleResolution": "node", // Adicione esta linha para resolver módulos corretamente
-    "strict": true, // Adicione esta linha para ativar verificações estritas
-    "target": "ESNext", // Adicione esta linha para definir o alvo da compilação
-    "module": "ESNext" // Adicione esta linha para definir o módulo da compilação
+    "jsx": "react-jsx",
+    "esModuleInterop": true,
+    "moduleResolution": "node",
+    "strict": true,
+    "target": "ESNext",
+    "module": "ESNext",
+    "types": ["react", "react-dom"],
+    "outDir": "./dist", // Adicione esta linha para especificar o diretório de saída
+    "rootDir": "./src", // Adicione esta linha para especificar o diretório raiz
+    "noEmit": true // Adicione esta linha para evitar a emissão de arquivos JS
   },
   "include": ["src"]
 }
