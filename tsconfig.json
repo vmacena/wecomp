@@ -1,7 +1,15 @@
 {
-  "files": [],
-  "references": [
-    { "path": "./tsconfig.app.json" },
-    { "path": "./tsconfig.node.json" }
-  ]
+  "compilerOptions": {
+    "baseUrl": "./",
+    "paths": {
+      "@/*": ["src/*"]
+    },
+    "jsx": "react-jsx", // Adicione esta linha para suportar JSX
+    "esModuleInterop": true, // Adicione esta linha para suportar importações ES6
+    "moduleResolution": "node", // Adicione esta linha para resolver módulos corretamente
+    "strict": true, // Adicione esta linha para ativar verificações estritas
+    "target": "ESNext", // Adicione esta linha para definir o alvo da compilação
+    "module": "ESNext" // Adicione esta linha para definir o módulo da compilação
+  },
+  "include": ["src"]
 }
