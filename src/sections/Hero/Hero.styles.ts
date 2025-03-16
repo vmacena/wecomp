@@ -12,6 +12,7 @@ export const HeroContainer = styled.section`
   text-align: center;
   color: black;
   overflow-x: hidden;
+  position: relative;
 
   ${mq({
     padding: ["0", "50px 20px"],
@@ -49,7 +50,8 @@ export const Subtitle = styled.p`
 `;
 
 export const ArrowDown = styled.div`
-  margin-top: 40px;
+  position: absolute;
+  bottom: 20px;
   font-size: 2rem;
   cursor: pointer;
   animation: bounce 1.5s infinite;
@@ -59,4 +61,3 @@ export const ArrowDown = styled.div`
     50% { transform: translateY(10px); }
   }
 `;
-
