@@ -9,10 +9,13 @@ export const SectionContainer = styled.section`
   padding: 80px 20px;
   width: 100vw;
   min-height: 100vh;
+  position: relative;
 `;
 
 export const ArrowDown = styled.div`
-  margin-top: 40px;
+  position: absolute;
+  bottom: 20px;
+  transform: translateX(-50%);
   font-size: 2rem;
   cursor: pointer;
   animation: bounce 1.5s infinite;
