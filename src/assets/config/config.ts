@@ -1,4 +1,5 @@
 import { AboutSectionContent } from "@/assets/config/config.types";
+import { OrganizationSectionContent } from "@/assets/config/config.types";
   
   export const heroContent = {
     title: "VI Semana da Computação",
@@ -17,7 +18,7 @@ import { AboutSectionContent } from "@/assets/config/config.types";
     buttonText: "Ver mais",
   };
 
-  export const organizationContent = {
+  export const organizationContent: OrganizationSectionContent = {
     title: "Realização & Organização"
   };
   

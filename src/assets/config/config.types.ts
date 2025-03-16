@@ -3,3 +3,7 @@ export type AboutSectionContent = {
     description: string;
     buttonText?: string;
   };
+
+export type OrganizationSectionContent = {
+    title: string;
+};
