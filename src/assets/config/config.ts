@@ -16,4 +16,9 @@ import { AboutSectionContent } from "@/assets/config/config.types";
     `,
     buttonText: "Ver mais",
   };
+
+  export const organizationContent = {
+    title: "Realização & Organização"
+  };
+  
   
