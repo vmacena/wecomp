@@ -1,4 +1,5 @@
 import { AboutSectionContent } from "@/assets/config/config.types";
+import { SponsorSection } from "./config.types";
 import { OrganizationSectionContent } from "@/assets/config/config.types";
   
   export const heroContent = {
@@ -16,6 +17,10 @@ import { OrganizationSectionContent } from "@/assets/config/config.types";
       e promover o ingresso dos participantes no mercado de trabalho.
     `,
     buttonText: "Ver mais",
+  };
+
+  export const sponsorsContent: SponsorSection = {
+    title: "Apoiadores",
   };
 
   export const organizationContent: OrganizationSectionContent = {

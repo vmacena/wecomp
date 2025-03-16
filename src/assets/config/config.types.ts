@@ -7,3 +7,7 @@ export type AboutSectionContent = {
 export type OrganizationSectionContent = {
     title: string;
 };
+
+export type SponsorSection = {
+  title: string;
+}

@@ -1,4 +1,6 @@
 import styled from "styled-components";
+import { mq } from "@/utils/responsive/breakpoints";
+
 
 export const SectionContainer = styled.section`
   display: flex;
@@ -10,6 +12,20 @@ export const SectionContainer = styled.section`
   width: 100vw;
   min-height: 100vh;
   position: relative;
+`;
+
+export const Title = styled.h2`
+  font-size: 2rem;
+  font-weight: 700;
+  background: black;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 5px;
+  margin-bottom: 20px;
+  
+  ${mq({
+    fontSize: ["2rem", "1.8rem"],
+  })}
 `;
 
 export const ArrowDown = styled.div`
