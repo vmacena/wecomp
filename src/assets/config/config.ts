@@ -1,6 +1,4 @@
-import { AboutSectionContent } from "@/assets/config/config.types";
-import { SponsorSection } from "./config.types";
-import { OrganizationSectionContent } from "@/assets/config/config.types";
+import { SponsorSection, AboutSectionContent, OrganizationSectionContent, SectionConfig, CardData } from "./config.types";
   
   export const heroContent = {
     title: "VI Semana da Computação",
@@ -27,4 +25,45 @@ import { OrganizationSectionContent } from "@/assets/config/config.types";
     title: "Realização & Organização"
   };
   
+  // Cards Data
+  export const programacaoConfig: SectionConfig = {
+    title: "Programação",
+    items: [
+      {
+        title: "IFSP Lab C147 | 3 de Setembro | 19h30 às 20h00",
+        description: "Lorem ipsum dolor sit amet consectetur...",
+        icon: "/assets/icons/calendar.svg",
+        category: "Minicurso",
+        vagas: 30,
+        buttonLabel: "Ver biografia",
+        buttonLink: "#",
+        companyLogo: "/assets/logos/minicurso.png",
+      },
+      {
+        title: "Python para Iniciantes",
+        description: "Aprenda os conceitos básicos de Python.",
+        icon: "/assets/icons/python.svg",
+        category: "Workshop",
+        vagas: 20,
+        buttonLabel: "Inscrever-se",
+        buttonLink: "#",
+        companyLogo: "/assets/logos/python.png",
+      },
+    ],
+  };
   
+  export const destaquesConfig: SectionConfig = {
+    title: "Destaques",
+    items: [
+      {
+        title: "Back End Java with Spring Boot",
+        description: "Lorem ipsum dolor sit amet...",
+        icon: "/assets/icons/java.svg",
+        category: "Estágio",
+        vagas: 30,
+        buttonLabel: "Inscrever-se",
+        buttonLink: "#",
+        companyLogo: "/assets/logos/marlabs.png",
+      },
+    ],
+  };
