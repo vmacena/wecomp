@@ -1,4 +1,8 @@
-import { SponsorSection, AboutSectionContent, OrganizationSectionContent, SectionConfig, CardData } from "./config.types";
+import { 
+  SponsorSection, 
+  AboutSectionContent, 
+  OrganizationSectionContent, 
+  SectionConfig } from "./config.types";
   
   export const heroContent = {
     title: "VI Semana da Computação",
@@ -30,24 +34,25 @@ import { SponsorSection, AboutSectionContent, OrganizationSectionContent, Sectio
     title: "Programação",
     items: [
       {
-        title: "IFSP Lab C147 | 3 de Setembro | 19h30 às 20h00",
+        title: "teste",
         description: "Lorem ipsum dolor sit amet consectetur...",
-        icon: "/assets/icons/calendar.svg",
-        category: "Minicurso",
+        icon: "calendar",
+        category: "Disponível",
+        disponibility: "Básico",
         vagas: 30,
         buttonLabel: "Ver biografia",
         buttonLink: "#",
-        companyLogo: "/assets/logos/minicurso.png",
+        companyLogo: "minicurso",
       },
       {
         title: "Python para Iniciantes",
         description: "Aprenda os conceitos básicos de Python.",
-        icon: "/assets/icons/python.svg",
+        icon: "python",
         category: "Workshop",
         vagas: 20,
         buttonLabel: "Inscrever-se",
         buttonLink: "#",
-        companyLogo: "/assets/logos/python.png",
+        companyLogo: "minicurso",
       },
     ],
   };
@@ -58,12 +63,22 @@ import { SponsorSection, AboutSectionContent, OrganizationSectionContent, Sectio
       {
         title: "Back End Java with Spring Boot",
         description: "Lorem ipsum dolor sit amet...",
-        icon: "/assets/icons/java.svg",
+        icon: "java",
         category: "Estágio",
         vagas: 30,
         buttonLabel: "Inscrever-se",
         buttonLink: "#",
-        companyLogo: "/assets/logos/marlabs.png",
+        companyLogo: "marlabs",
+      },
+      {
+        title: "teste",
+        description: "Lorem ipsum dolor sit amet...",
+        icon: "java",
+        category: "Estágio",
+        vagas: 30,
+        buttonLabel: "Inscrever-se",
+        buttonLink: "#",
+        companyLogo: "marlabs",
       },
     ],
   };
