@@ -21,6 +21,7 @@ export type CardData = {
   description: string;
   icon: string;
   category: string;
+  disponibility?: string;
   vagas: number;
   buttonLabel: string;
   buttonLink: string;

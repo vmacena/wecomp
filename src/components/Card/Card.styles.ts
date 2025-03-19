@@ -1,4 +1,5 @@
 import styled from "styled-components";
+import { mq } from "@/utils/responsive/breakpoints";
 
 export const CardContainer = styled.div`
   background: white;
@@ -35,6 +36,7 @@ export const CardBody = styled.div`
   display: flex;
   flex-direction: column;
   gap: 10px;
+  min-height: 120px;
 
   img {
     width: 80px;
@@ -48,6 +50,9 @@ export const CardBody = styled.div`
   p {
     font-size: 1rem;
     color: #555;
+    min-height: 60px;
+    overflow: hidden;
+    text-overflow: ellipsis;
   }
 `;
 
@@ -69,4 +74,23 @@ export const Button = styled.a`
   &:hover {
     background: #218838;
   }
+
+  ${mq({
+    fontSize: ["0.9rem", "0.8rem"],
+    padding: ["10px 15px", "8px 10px"],
+  })}
+`;
+
+export const Title = styled.h2`
+  font-size: 2rem;
+  font-weight: 700;
+  background: black;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 5px;
+  margin-bottom: 20px;
+  
+  ${mq({
+    fontSize: ["2rem", "1.8rem"],
+  })}
 `;
